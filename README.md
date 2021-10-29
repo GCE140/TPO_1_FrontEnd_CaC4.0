@@ -22,3 +22,4 @@ El presente TPO abarca lo visto en la etapa de Front End del curso:
 * Todas las páginas incluyen ícones de FontAwesome y fuentes de Google Fonts.
 * En helics.html se encuentra hizo uso de una animación.
 * En todas las páginas se utilizó Grid (clases grid-container y grid-item).
+* Hosteado en Netlify (silly-lamarr-1d3a96.netlify.app).
