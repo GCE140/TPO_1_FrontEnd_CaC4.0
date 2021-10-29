@@ -3,8 +3,6 @@
 ## Índice
 * [Temario](#temario)
 * [Detalles de las consignas](#detalles-de-las-consignas)
-* [Technologies](#technologies)
-* [Setup](#setup)
 
 ## Temario
 El presente TPO abarca lo visto en la etapa de Front End del curso:
