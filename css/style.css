@@ -1,0 +1,115 @@
+body {
+    background-color: lightskyblue;
+}
+
+.grid-container {
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-rows: auto 1fr auto;
+    padding: 10px;
+    position: relative;
+}
+
+.grid-item {
+    border: 1px;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.mapa {
+    position: relative;
+    width:80%;
+}
+
+.menu { 
+    text-align: center; 
+}
+
+.menu ul { 
+    display: inline-table;
+}
+
+.menu ul li {
+    display: inline;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightskyblue;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: lightslategray;
+}
+
+header, h1{
+    font-family: 'Patua One';
+    text-align: center;
+}
+
+.button {
+    background-color: lightskyblue;
+    font-size: 20px; 
+    color: black;
+}
+
+iframe {
+    border: 1px solid black;
+    width: 100%;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: lightgray;
+    color: black;
+    text-align: center;
+}
+
+@keyframes construc {
+    0%   {top:0px;}
+    25%  {top:100px;}
+    50%  {top:200px;}
+    75%  {top:100px;}
+    100% {top:0px;}
+}
+
+.contenedor-anim {
+    margin-top: 50px;
+    position: relative;
+}
+  
+.anim {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    animation-name: construc;
+    animation-duration: 4s;
+    animation-direction: reverse; 
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 -25px;
+}
+
+h2 {
+    font-family: 'Patua One';
+    text-align: center;
+}
