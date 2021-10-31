@@ -32,6 +32,7 @@
 
         <div class="grid-item">
             <h2>Envíenos su consulta</h2>
+
             <div class="formulario">
                 <form action="/action_page.php" class="was-validated">
                     <div class="mb-3 mt-3">
@@ -48,9 +49,22 @@
                         <div class="valid-feedback">Correcto</div>
                         <div class="invalid-feedback">Debe completar este campo!</div>
                     </div>
-                    <button type="submit" class="btn btn-primary">ENVIAR</button>
+                    <button type="submit" class="enviar"><i class="fas fa-envelope-open-text"> Enviar</i></button>
                 </form>
             </div>
+        </div>
+
+
+        <div class="grid-item">
+            <h2>O bien, suscribase a nuestro Newsletter</h2>
+
+            <div class="mb-3 mt-3">
+                <form name="myForm">
+                    Mail: <input type="text" name="mail" placeholder="ejemplo@ejemplo.com">
+                </form>
+            </div>
+            <button class="enviar" onclick="validateForm(mail.value)"><i class="fas fa-envelope-open-text">
+                    Suscribirse</i></button>
         </div>
 
         <div class="grid-item">
@@ -68,12 +82,15 @@
 
 </body>
 
+<script type="text/javascript">
+    function validateForm() {
+        let x = document.forms["myForm"]["mail"].value;
+        if (x == "") {
+            alert("Debe llenar el campo para suscribirse");
+            return false;
+        }
+    }
+</script>
+
 </html>
 </div>
-
-
-<footer>TPO Front End - Guillermo Elli</footer>
-
-</body>
-
-</html>
